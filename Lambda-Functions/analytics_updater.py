@@ -1,6 +1,7 @@
 import os
 import json
-import boto3
+import boto3  # type: ignore
+
 
 # DynamoDB setup
 dynamodb = boto3.resource('dynamodb')
