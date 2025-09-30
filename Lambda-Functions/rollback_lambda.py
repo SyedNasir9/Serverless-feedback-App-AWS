@@ -2,7 +2,7 @@ import os
 import boto3
 import json
 
-# Initialize Lambda client
+
 lambda_client = boto3.client('lambda')
 
 TARGET = os.environ.get('TARGET_FUNCTION_NAME', 'fb-create-prod')
