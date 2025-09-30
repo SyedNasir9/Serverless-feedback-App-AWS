@@ -12,7 +12,6 @@ def lambda_handler(event, context):
     print('Rollback invoked. Event:', json.dumps(event))
     
     try:
-        # Get alias info
         alias = lambda_client.get_alias(FunctionName=TARGET, Name=ALIAS)
         current_version = alias.get('FunctionVersion')
         print('Current alias version:', current_version)
