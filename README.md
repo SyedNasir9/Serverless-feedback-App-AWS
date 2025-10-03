@@ -650,7 +650,7 @@ This platform tackles the critical challenge of gathering and analyzing user fee
 
 ### 🎥 **Demonstration Activity**
 
-📺 **Watch the complete system workflow:** [Demo Video Link](#)
+📺 **Watch the complete system workflow:** [Demo Video Link](https://drive.google.com/file/d/1H7Qf7QAqJsE25WnnAhtGVd71rz83UJtb/view?usp=sharing)
 
 **Video walkthrough includes:**
 1. ✅ Submitting feedback through React UI
